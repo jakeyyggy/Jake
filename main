@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draco Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Draco Bot</h1>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Support</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Powerful Discord Bot</h2>
+        <p>Enhance your Discord server with Draco Bot. Simple setup, powerful features!</p>
+        <button>Get Started</button>
+    </section>
+    <footer>
+        <p>&copy; 2025 Draco Bot. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    background-color: #0044cc;
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero button {
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hero button:hover {
+    background-color: #e6b800;
+}
+
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+}
